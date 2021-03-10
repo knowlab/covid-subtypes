@@ -1,6 +1,6 @@
 # Identifying COVID-19 Subtypes via a Multi-dimensional Space
 
-## Medical Reference Value References
+## Medical Reference Values References
 
 Padilla  O.  Normal  Laboratory  Values  -  MSD  Manual.  MSD  Manuals;  2018.    Available  from:https://www.msdmanuals.com/en-gb/professional/resources/normal-laboratory-values/normal-laboratory-values
 
