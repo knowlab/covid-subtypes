@@ -1,4 +1,4 @@
-# Identifying COVID-19 Subtypes via a Multi-dimensional Space
+# Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes
 
 ## Table of Content
 
