@@ -6,7 +6,8 @@
 
 | Clustering                                                                                | Hyperparameters                                                                               | Downsampling co-efficient | Upsampling co-efficient |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------|-------------------------|
-| Baseline KModes Binary                                                                    | n estimators=40, max depth=None, max features=‘sqrt’, min samples split=10, criterion=‘ gini’ | 0.6                       | 0.8                     |
+| Baseline KModes Binary                                                                    | criterion='entropy', max_depth=10, min_samples_split=5,
+                       n_estimators=15 | 0.6                       | 0.8                     |
 | Baseline KModes Multiclass                                                                | n estimators=60, max depth=10, max features=‘sqrt’, min samples split=10, criterion=‘ gini’   | 1                         | 0.8                     |
 | Layered Axes KModes Layer 1                                                               | n estimators=30, max depth=10, max features=‘log2’, min samples split=2, criterion=‘ entropy’ | 1                         | 0.8                     |
 | Layered Axes KModes Layer 2, Cluster 0                                                    | n estimators=20, max depth=None, max features=‘sqrt’, min samples split=10, criterion=‘ gini’ | 1                         | 0.8                     |
