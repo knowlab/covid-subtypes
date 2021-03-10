@@ -1,4 +1,5 @@
 # Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes
+by Emma Whitfield (@ekw26) and Claire Coffey(@clairecoffey)
 
 ## Table of Content
 
