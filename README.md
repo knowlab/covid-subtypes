@@ -1,5 +1,14 @@
 # Identifying COVID-19 Subtypes via a Multi-dimensional Space
 
+## Table of Content
+
+- [Data Preprocessing Details](https://github.com/knowlab/covid-subtypes#data-preprocessing-details)
+- [ICD-10 Chapter Statistics](https://github.com/knowlab/covid-subtypes#icd-10-chapter-statistics)
+- [Medical Reference Values References](https://github.com/knowlab/covid-subtypes#medical-reference-values-references)
+- [Prognosis Space & Classifier details](https://github.com/knowlab/covid-subtypes#technical-details)
+    - [Prognosis Space Dimension Reduction Function](https://github.com/knowlab/covid-subtypes#prognosis-space-dimension-reduction-function) 
+    - [Random Forest classifcation configurations](https://github.com/knowlab/covid-subtypes#table-1-random-forest-classifcation-configurations-hyperparameters-and-sampling-coefficients-the-downupsampling-coefficients-are-relative-to-the-number-of-individuals-in-the-most-numerous-class)
+
 ## Data Preprocessing Details
 
 We removed duplicate records, leaving 2797 patients for whom a wide range of features were available, including general patient information, co-morbidities, symptoms (recorded as Chinese freetext), lab test results, ICD-10 admission and discharge codes \cite{World_Health_OrganizationWHO1993-ey}, and other prognosis features (death, ICU admission, supplementary oxygen, length of stay). We used the Python package Googletrans \cite{suhunhan2015} to translate Chinese freetext, then used spaCy \cite{spacy2} to extract keywords relating to smoking and used these to categorise smoking as a binary yes (1) or no (0). 
