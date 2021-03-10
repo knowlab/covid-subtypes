@@ -14,7 +14,7 @@
 | n estimators=20, max depth=5, max features=‘sqrt’, min samples split=10, criterion=‘gini’ | n estimators=15, max depth=None, max features=‘log2’, min samples split=2, criterion=‘ gini’  | 1                           | 0.8                     |
 | Prognosis Space DBScan                                                                    | n estimators=60, max depth=15, max features=‘log2’, min samples split=2, criterion=‘ entropy’ | 1                         | 0.8                     |
 
-## Prognosis Space Dimension Reduction Function 
+### Prognosis Space Dimension Reduction Function 
 The Dimension Reduction function we used takes the form: \
 ![](dim_red_function.png) \
 * f_1 is computed by:
