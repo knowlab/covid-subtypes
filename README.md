@@ -1,5 +1,28 @@
 # Identifying COVID-19 Subtypes via a Multi-dimensional Space
 
+## Medical Reference Value References
+
+Padilla  O.  Normal  Laboratory  Values  -  MSD  Manual.  MSD  Manuals;  2018.    Available  from:https://www.msdmanuals.com/en-gb/professional/resources/normal-laboratory-values/normal-laboratory-values
+
+NHS.    What    is    blood    pressure?.    NHS;    2019.Available    from:https://www.nhs.uk/common-health-questions/lifestyle/what-is-blood-pressure/.
+
+HF.   What   is   a   normal   pulse   rate?.   British   Heart   Foundation;    2020.Available   from:https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/ask-the-experts/pulse-rate
+
+BLF. Breathing and lung function tests. British Lung Foundation; 2020. Available from:https://www.blf.org.uk/support-for-you/breathing-tests/tests-measure-oxygen-levels
+
+The Association for Clinical Biochemistry and Laboratory Medicine. C-Reactive protein. Lab Tests Online UK;2020. Available from:https://labtestsonline.org.uk/tests/c-reactive-protein-crp
+
+CLL  Society.  Normal  Lab  Values.  CLL  Society;  2020.    Available  from:https://cllsociety.org/toolbox/normal-lab-values
+
+Villa P, Jim ́enez M, Soriano MC, Manzanares J, Casasnovas P.  Serum cystatin C concentration as a marker ofacute renal dysfunction in critically ill patients. Critical Care. 2005;9(2):1–5
+
+Bounds EJ, Kok SJ. D Dimer. StatPearls Publishing; 2020. Available from:http://www.ncbi.nlm.nih.gov/pubmed/28613718
+
+Whitworth  G.  Normal  respiratory  rates:   Adults  and  children;  2019.Available  from:https://www.medicalnewstoday.com/articles/324409
+
+Anthony K, Gonzalez A. What Is the Red Cell Distribution Width (RDW) Blood Test?; 2019.  Available from:https://www.healthline.com/health/rdw-blood-test
+
+
 ## Technical details
 
 ### Table 1. Random Forest classifcation configurations: hyperparameters and sampling coefficients. The down/upsampling coefficients are relative to the number of individuals in the most numerous class.
