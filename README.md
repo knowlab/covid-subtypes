@@ -18,7 +18,7 @@
 
 ### Prognosis Space Dimension Reduction Function 
 The Dimension Reduction function we used takes the form: \
-![](dim_red_function.png) \
+![](dim_red_function.png) 
 * f_1 is computed by:
 ```
 d_1 = 0
