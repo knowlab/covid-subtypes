@@ -9,6 +9,29 @@ For discharge codes, we used the python packages icd10-cm \cite{bryanandrade2019
 
 Given possible heterogeneity in reporting amongst clinicians, we used only chapter level information of ICD-10 codes - overall chapter counts of discharge codes are shown in Table \ref{tab:disch_codes}. For each patient, we recorded presence of a discharge code from each chapter, resulting in a binary vector for each patient (1: presence of code from chapter; 0: no code from chapter). Note that in this cohort, many people with only mild symptoms were admitted to hospital. This meant that, after removal of the above codes, there were 1742 patients with no recorded discharge codes.
 
+### ICD-10 Chapter Statistics
+|  ICD-10   Chapter   | Count |
+|---------------------|-------|
+| Abnormal Labs       | 153   |
+| Blood/Immune        | 137   |
+| Circulatory         | 435   |
+| Congenital          | 5     |
+| Digestive           | 183   |
+| Ear                 | 7     |
+| Eye                 | 10    |
+| Genitourinary       | 112   |
+| Health Status       | 131   |
+| Infectious diseases | 75    |
+| Injury/Poison       | 17    |
+| Mental              | 29    |
+| Musculoskeletal     | 93    |
+| Neoplasms           | 57    |
+| Nervous             | 35    |
+| Nutritional         | 348   |
+| Pregnancy           | 1     |
+| Respiratory         | 306   |
+| Skin                | 18    |
+
 ## Medical Reference Values References
 
 Padilla  O.  Normal  Laboratory  Values  -  MSD  Manual.  MSD  Manuals;  2018.    Available  from:https://www.msdmanuals.com/en-gb/professional/resources/normal-laboratory-values/normal-laboratory-values
