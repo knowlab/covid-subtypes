@@ -1,6 +1,8 @@
-# covid-subtypes
+# Identifying COVID-19 Subtypes via a Multi-dimensional Space
 
-### Table 1. Experiment configurations: hyperparameters and sampling coefficients. The down/upsampling coefficients are relative to the number of individuals in the most numerous class.
+## Technical details
+
+### Table 1. Random Forest classifcation configurations: hyperparameters and sampling coefficients. The down/upsampling coefficients are relative to the number of individuals in the most numerous class.
 
 | Clustering                                                                                | Hyperparameters                                                                               | Downsampling co-efficient | Upsampling co-efficient |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------|-------------------------|
