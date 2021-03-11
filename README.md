@@ -127,9 +127,16 @@ The Prognosis Space approach, including the dimension reduction functions are im
 
 ### Detailed Classification Results 
 
-#### Binary K-Modes
+#### Baseline Binary K-Modes
 ![image](https://user-images.githubusercontent.com/6172501/110785158-8550c100-8262-11eb-8b9e-4e298a1f386b.png)
 
-#### Multi-Class K-Modes
+#### Baseline Multi-Class K-Modes
 ![image](https://user-images.githubusercontent.com/6172501/110785712-2b043000-8263-11eb-9173-a7c577a14422.png)
+
+#### Layered Axis KModes Layer 2, Cluster 0
+![image](https://user-images.githubusercontent.com/6172501/110786204-c1385600-8263-11eb-8168-5d6d1d8aec59.png)
+
+#### Layered Axis KModes Layer 2, Cluster 1
+![image](https://user-images.githubusercontent.com/6172501/110786498-1f653900-8264-11eb-9669-3e715ed616d6.png)
+
 
