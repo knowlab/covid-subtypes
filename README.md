@@ -1,7 +1,7 @@
 # Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes
 Emma Whitfield (@ekw26) and Claire Coffey(@clairecoffey)
 
-## Table of Content
+## Table of Contents
 
 - [Data Preprocessing Details](https://github.com/knowlab/covid-subtypes#data-preprocessing-details)
 - [ICD-10 Chapter Statistics](https://github.com/knowlab/covid-subtypes#icd-10-chapter-statistics)
@@ -124,3 +124,14 @@ The Prognosis Space approach, including the dimension reduction functions are im
 | Layered Axes KModes Layer 2, Severe Patients                                              | criterion='entropy', max_depth=10, min_samples_split=5, max_features='sqrt',  n_estimators=5 | 1                  | 0.8                     |
 | Prognosis Space DBScan                                                                    | n estimators=60, max depth=15, max features=‘log2’, min samples split=2, criterion=‘ entropy’ | 1                         | 0.8                     |
 | Prognosis Space DBScan, Severe Patients                                                   | max_depth=15, min_samples_split=10, n_estimators=20, criterion='gini', max features = 'auto' | 1               | 0.8                     | 
+
+### Detailed Classification Results 
+
+              precision    recall  f1-score   support
+
+          1a       0.69      0.60      0.64        15
+          1b       0.87      0.91      0.89        44
+
+    accuracy                           0.83        59
+   macro avg       0.78      0.75      0.77        59
+weighted avg       0.82      0.83      0.83        59
