@@ -127,11 +127,3 @@ The Prognosis Space approach, including the dimension reduction functions are im
 
 ### Detailed Classification Results 
 
-              precision    recall  f1-score   support
-
-          1a       0.69      0.60      0.64        15
-          1b       0.87      0.91      0.89        44
-
-    accuracy                           0.83        59
-   macro avg       0.78      0.75      0.77        59
-weighted avg       0.82      0.83      0.83        59
