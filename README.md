@@ -9,6 +9,7 @@ Emma Whitfield (@ekw26) and Claire Coffey(@clairecoffey)
 - [Prognosis Space & Classifier details](https://github.com/knowlab/covid-subtypes#technical-details)
     - [Prognosis Space Dimension Reduction Function](https://github.com/knowlab/covid-subtypes#prognosis-space-dimension-reduction-function) 
     - [Random Forest classifcation configurations](https://github.com/knowlab/covid-subtypes#table-1-random-forest-classifcation-configurations-hyperparameters-and-sampling-coefficients-the-downupsampling-coefficients-are-relative-to-the-number-of-individuals-in-the-most-numerous-class)
+ - [Detailed Classification Results](https://github.com/knowlab/covid-subtypes#detailed-classification-results)
 
 ## Data Preprocessing Details
 
