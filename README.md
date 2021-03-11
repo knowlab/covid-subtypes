@@ -139,4 +139,6 @@ The Prognosis Space approach, including the dimension reduction functions are im
 #### Layered Axis KModes Layer 2, Cluster 1
 ![image](https://user-images.githubusercontent.com/6172501/110786498-1f653900-8264-11eb-9669-3e715ed616d6.png)
 
+#### Layered Axis KModes Layer 2, Cluster 2
+![image](https://user-images.githubusercontent.com/6172501/110786963-afa37e00-8264-11eb-87e5-afde3c1c95fa.png)
 
