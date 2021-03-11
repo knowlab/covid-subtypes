@@ -126,6 +126,7 @@ The Prognosis Space approach, including the dimension reduction functions are im
 | Prognosis Space DBScan, Severe Patients                                                   | max_depth=15, min_samples_split=10, n_estimators=20, criterion='gini', max features = 'auto' | 1               | 0.8                     | 
 
 ### Detailed Classification Results 
+Results for cross-validation and overall classification performance using random forests, for each clustering technique.
 
 #### Baseline Binary K-Modes
 ![image](https://user-images.githubusercontent.com/6172501/110785158-8550c100-8262-11eb-8b9e-4e298a1f386b.png)
