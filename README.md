@@ -144,3 +144,12 @@ The Prognosis Space approach, including the dimension reduction functions are im
 
 #### Layered Axis KModes Layer 2, Severe Patients
 ![image](https://user-images.githubusercontent.com/6172501/110787420-322c3d80-8265-11eb-8ec6-9c65ed52e273.png)
+
+#### Prognosis Space DBSCAN, All
+![image](https://user-images.githubusercontent.com/6172501/110788053-078eb480-8266-11eb-87e8-fc6cd06eb60c.png)
+
+#### Prognosis Space DBSCAN, Severe Patients
+![image](https://user-images.githubusercontent.com/6172501/110788342-66542e00-8266-11eb-8bba-12cf5517a285.png)
+
+
+
