@@ -4,8 +4,8 @@ Emma Whitfield (@ekw26) and Claire Coffey(@clairecoffey)
 ## Table of Contents
 
 - [Data Preprocessing Details](https://github.com/knowlab/covid-subtypes#data-preprocessing-details)
-- [ICD-10 Chapter Statistics](https://github.com/knowlab/covid-subtypes#icd-10-chapter-statistics)
-- [Medical Reference Values References](https://github.com/knowlab/covid-subtypes#medical-reference-values-references)
+    - [ICD-10 Chapter Statistics](https://github.com/knowlab/covid-subtypes#icd-10-chapter-statistics)
+    - [Medical Reference Values References](https://github.com/knowlab/covid-subtypes#medical-reference-values-references)
 - [Prognosis Space & Classifier details](https://github.com/knowlab/covid-subtypes#technical-details)
     - [Prognosis Space Dimension Reduction Function](https://github.com/knowlab/covid-subtypes#prognosis-space-dimension-reduction-function) 
     - [Random Forest classifcation configurations](https://github.com/knowlab/covid-subtypes#table-1-random-forest-classifcation-configurations-hyperparameters-and-sampling-coefficients-the-downupsampling-coefficients-are-relative-to-the-number-of-individuals-in-the-most-numerous-class)
