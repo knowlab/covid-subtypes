@@ -133,12 +133,14 @@ The Prognosis Space approach, including the dimension reduction functions are im
 #### Baseline Multi-Class K-Modes
 ![image](https://user-images.githubusercontent.com/6172501/110785712-2b043000-8263-11eb-9173-a7c577a14422.png)
 
-#### Layered Axis KModes Layer 2, Cluster 0
+#### Layered Axis KModes Layer 2, Cluster 0, Nutritional
 ![image](https://user-images.githubusercontent.com/6172501/110786204-c1385600-8263-11eb-8168-5d6d1d8aec59.png)
 
-#### Layered Axis KModes Layer 2, Cluster 1
+#### Layered Axis KModes Layer 2, Cluster 1, Respiratory
 ![image](https://user-images.githubusercontent.com/6172501/110786498-1f653900-8264-11eb-9669-3e715ed616d6.png)
 
-#### Layered Axis KModes Layer 2, Cluster 2
+#### Layered Axis KModes Layer 2, Cluster 2, Circulatory
 ![image](https://user-images.githubusercontent.com/6172501/110786963-afa37e00-8264-11eb-87e5-afde3c1c95fa.png)
 
+#### Layered Axis KModes Layer 2, Severe Patients
+![image](https://user-images.githubusercontent.com/6172501/110787420-322c3d80-8265-11eb-8ec6-9c65ed52e273.png)
