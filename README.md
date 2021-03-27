@@ -1,6 +1,9 @@
 # Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes
 Emma Whitfield (@ekw26) and Claire Coffey(@clairecoffey)
 
+**Preprint:** Emma Whitfield, Claire Coffey, Huayu Zhang, Ting Shi, Xiaodong Wu, Qiang Li, Honghan Wu. *Axes of Prognosis: Identifying Subtypes of COVID-19 Outcomes.* medRxiv 2021.03.16.21253371; doi: [10.1101/2021.03.16.21253371](https://doi.org/10.1101/2021.03.16.21253371)
+
+
 ## Table of Contents
 
 - [Data Preprocessing Details](https://github.com/knowlab/covid-subtypes#data-preprocessing-details)
