@@ -130,7 +130,7 @@ The Prognosis Space approach, including the dimension reduction functions are im
 | Prognosis Space DBScan, Severe Patients                                                   | max_depth=15, min_samples_split=10, n_estimators=20, criterion='gini', max features = 'auto' | 1               | 0.8                     | 
 
 ### Detailed Classification Results 
-Results for cross-validation and overall classification performance using random forests, for each clustering technique.
+Results for cross-validation and overall classification performance using random forests for each clustering technique.
 
 #### Baseline Binary K-Modes
 ![image](https://user-images.githubusercontent.com/6172501/110785158-8550c100-8262-11eb-8b9e-4e298a1f386b.png)
@@ -157,4 +157,47 @@ Results for cross-validation and overall classification performance using random
 ![image](https://user-images.githubusercontent.com/6172501/110788342-66542e00-8266-11eb-8bba-12cf5517a285.png)
 
 
+### Classification Feature Importances
+Charts for the feature importances for each random forest classifier, for each classification problem. We used the same features for every classifier, although as shown in the graphs, this is potentially not the optimal approach and better results may be achieved by discounting some features for some classifiers. Feature importances are calculated with both mean decrease in impurity and feature permutation techniques, calculated using sklearn libraries. 
 
+#### Baseline Multiclass K-Modes
+Mean decrease in impurity 
+![image](https://user-images.githubusercontent.com/6172501/124476716-15c78a00-dd9b-11eb-869a-e9c1dbb1cb5a.png)
+
+Feature permutation
+![image](https://user-images.githubusercontent.com/6172501/124476887-49a2af80-dd9b-11eb-884b-ab241867137a.png)
+
+#### Layered Axes K-Modes, All
+Mean decrease in impurity 
+![image](https://user-images.githubusercontent.com/6172501/124477635-24627100-dd9c-11eb-93a9-b812a782f7e0.png)
+
+Feature permutation
+![image](https://user-images.githubusercontent.com/6172501/124477703-3a703180-dd9c-11eb-864d-4e8a88dc1bf8.png)
+
+#### Layered Axes K-Modes, Severe
+Mean decrease in impurity 
+![image](https://user-images.githubusercontent.com/6172501/124477803-596ec380-dd9c-11eb-8e78-4dc803e24b14.png)
+
+Feature permutation
+![image](https://user-images.githubusercontent.com/6172501/124477829-64295880-dd9c-11eb-974b-e136453711c1.png)
+
+#### Prognosis Space DBSCAN, All
+Mean decrease in impurity 
+![image](https://user-images.githubusercontent.com/6172501/124477994-9cc93200-dd9c-11eb-9de1-95f4c99b852c.png)
+
+Feature permutation
+![image](https://user-images.githubusercontent.com/6172501/124478034-a6529a00-dd9c-11eb-81e4-52c4215ef41d.png)
+
+#### Prognosis Space DBSCAN, Severe Patients
+Mean decrease in impurity 
+![image](https://user-images.githubusercontent.com/6172501/124478091-b7031000-dd9c-11eb-8fc0-9d3d32e2cbb9.png)
+
+Feature permutation
+![image](https://user-images.githubusercontent.com/6172501/124478118-c1bda500-dd9c-11eb-86df-606b96ddee09.png)
+
+#### Prognosis Space DBSCAN, Severe Respiratory Patients
+Mean decrease in impurity 
+![image](https://user-images.githubusercontent.com/6172501/124478190-d7cb6580-dd9c-11eb-8760-b63104ae9164.png)
+
+Feature permutation
+![image](https://user-images.githubusercontent.com/6172501/124478238-e6198180-dd9c-11eb-8315-e27ff18dd413.png)
