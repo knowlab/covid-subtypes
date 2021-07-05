@@ -128,6 +128,10 @@ The Prognosis Space approach, including the dimension reduction functions are im
 | Layered Axes KModes Layer 2, Severe Patients                                              | criterion='entropy', max_depth=10, min_samples_split=5, max_features='sqrt',  n_estimators=5 | 1                  | 0.8                     |
 | Prognosis Space DBScan                                                                    | n estimators=60, max depth=15, max features=‘log2’, min samples split=2, criterion=‘ entropy’ | 1                         | 0.8                     |
 | Prognosis Space DBScan, Severe Patients                                                   | max_depth=15, min_samples_split=10, n_estimators=20, criterion='gini', max features = 'auto' | 1               | 0.8                     | 
+| Prognosis Space DBScan, Cluster 5 (Respiratory, ICU) vs All Other Patients                | criterion='entropy', max_depth=10, max_features='sqrt',min_samples_split=5, n_estimators=5 | 0.6               | 0.8                     | 
+| Prognosis Space DBScan, Cluster 7 (Respiratory, Death) vs All Other Patients              | criterion='entropy', max_depth=5, max_features='sqrt',
+                       n_estimators=20  | 0.6               | 0.8                     | 
+
 
 ### Detailed Classification Results 
 Results for cross-validation and overall classification performance using random forests for each clustering technique.
@@ -156,6 +160,11 @@ Results for cross-validation and overall classification performance using random
 #### Prognosis Space DBSCAN, Severe Patients
 ![image](https://user-images.githubusercontent.com/6172501/110788342-66542e00-8266-11eb-8bba-12cf5517a285.png)
 
+#### Prognosis Space DBSCAN, Binary, Cluster 5 (Respiratory, ICU) vs All Other Patients
+![image](https://user-images.githubusercontent.com/6172501/124500429-af049980-ddb7-11eb-8f30-60b1e07d6be9.png)
+
+#### Prognosis Space DBSCAN, Binary, Cluster 7 (Respiratory, Death) vs All Other Patients
+![image](https://user-images.githubusercontent.com/6172501/124501221-0f480b00-ddb9-11eb-95e8-218fed71d152.png)
 
 ### Classification Feature Importances
 Charts for the feature importances for each random forest classifier, for each classification problem. We used the same features for every classifier, although as shown in the graphs, this is potentially not the optimal approach and better results may be achieved by discounting some features for some classifiers. Feature importances are calculated with both mean decrease in impurity and feature permutation techniques, calculated using sklearn libraries. 
